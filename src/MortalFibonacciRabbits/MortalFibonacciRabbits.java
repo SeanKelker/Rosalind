@@ -11,7 +11,7 @@ public class MortalFibonacciRabbits {
 	
 	public static BigDecimal[] baby = new BigDecimal[1000];	
 	public static BigDecimal[] adult = new BigDecimal[1000];
-	public static double m = 81;
+	public static double m = 99;
 	public static int l = 20-1;
 	
 	

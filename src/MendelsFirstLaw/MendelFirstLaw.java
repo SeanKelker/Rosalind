@@ -7,9 +7,9 @@ import java.util.Scanner;
 import javax.sound.midi.Sequence;
 
 	public class MendelFirstLaw  {
-		public static final double TT = 16;
-		public static final double Tt = 18;
-		public static final double tt = 30;
+		public static final double TT = 22;
+		public static final double Tt = 17;
+		public static final double tt = 27;
 		public static double s1p = 0;
 		public static double s2p = 0;
 		public static double s3p = 0;
