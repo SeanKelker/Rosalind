@@ -25,7 +25,7 @@ public class ComputingGCContent {
 		Markers[MarkerSet] = i;
 		MarkerSet++;
 		sets++;
-		
+
 	    }
 	    Markers[sets + 1] = DataSet.length();
 	}
@@ -44,7 +44,7 @@ public class ComputingGCContent {
 	double searchlenght = mark2 - mark1;
 	int searchloc = mark1;
 	double GC = 0;
-	
+
 	double total = 0;
 
 	for (int i = 0; i < searchlenght; i++) {
@@ -60,9 +60,7 @@ public class ComputingGCContent {
 	    }
 	    searchloc++;
 	}
-	
 
-	
 	GCF[setnum] = GC / (total) * 100;
     }
 
